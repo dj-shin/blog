@@ -1,6 +1,16 @@
-baseURL = "https://blog.maro.io/"
-languageCode = "ko-kr"
-title = "Maro's Blog"
+defaultContentLanguage = "ko"
 
 [markup.goldmark.renderer]
 unsafe = true
+
+[languages]
+  [languages.en]
+    baseURL = "https://blog.maro.io/en"
+    languageName = "English"
+    title = "Maro's Blog"
+    weight = 2
+  [languages.ko]
+    baseURL = "https://blog.maro.io"
+    languageName = "Korean"
+    title = "마로의 블로그"
+    weight = 1
