@@ -1,0 +1,19 @@
+{{ define "main" }}
+  {{ range (.Paginator 5).Pages }}
+  <article class="markdown book-post">
+    <h2>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h2>
+    <p>
+      {{- .Summary -}}
+      {{ if .Truncated }}
+        <a href="{{ .RelPermalink }}">...</a>
+      {{ end }}
+    </p>
+  </article>
+  {{ end }}
+{{ end }}
+
+{{ define "toc" }}
+  {{ partial "docs/taxonomy" . }}
+{{ end }}
