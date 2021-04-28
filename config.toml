@@ -10,7 +10,7 @@ unsafe = true
     title = "Maro's Blog"
     weight = 2
   [languages.ko]
-    baseURL = "https://blog.maro.io"
+    baseURL = "https://blog.maro.io/ko"
     languageName = "Korean"
     title = "마로의 블로그"
     weight = 1
