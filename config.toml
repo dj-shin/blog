@@ -1,3 +1,6 @@
 baseURL = "https://blog.maro.io/"
 languageCode = "ko-kr"
 title = "Maro's Blog"
+
+[markup.goldmark.renderer]
+unsafe = true
