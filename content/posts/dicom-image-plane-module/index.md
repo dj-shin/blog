@@ -11,4 +11,4 @@ CT나 MRI와 같은 3차원 영상도 많은 단면들이 각각 개별 DICOM �
 [cross reference](https://www.radiantviewer.com/dicom-viewer-manual/cross-reference_lines.html) 기능을 구현하고자 한다던가
 하는 3차원 공간 좌표에 대한 작업이 필요한 경우, 우리는 각 단면이 실제 3차원 공간에서 어떤 위치에 있었는지를 알아야 합니다.
 
-![plane-location](/plane-location.png "어느 단면을 찍은 이미지일까요?")
+![plane-location](plane-location.png "어느 단면을 찍은 이미지일까요?")
